@@ -21,9 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from Z00T device
 $(call inherit-product, device/asus/Z00T/device.mk)
 
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
 # Device identifier. This must come after all inclusions
+PRODUCT_NAME := lineage_Z00T
 PRODUCT_DEVICE := Z00T
-PRODUCT_NAME := full_Z00T
-PRODUCT_BRAND := asus
-PRODUCT_MODEL := Z00T
-PRODUCT_MANUFACTURER := asus
+PRODUCT_BRAND := Asus
+PRODUCT_MODEL := Zenfone 2 Laser/Selfie
+PRODUCT_MANUFACTURER := Asus
+
+PRODUCT_GMS_CLIENTID_BASE := android-asus
