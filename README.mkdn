@@ -1,7 +1,8 @@
-Unified Device Tree for Asus Zenfone 2 Laser/Selfie/Zoom (1080p)
-===========================================
+## Device Tree for Asus Zenfone 2 Laser/Selfie/Zoom (1080p)
 
-Basic   | Spec Sheet
+## Specifications
+
+Basic   | Specification
 -------:|:-------------------------
 CPU     | Quad-core 1.7 GHz Cortex-A53 & quad-core 1.0 GHz Cortex-A53
 Chipset | Qualcomm MSM8939 Snapdragon 615
@@ -11,8 +12,10 @@ Shipped Android Version | 5.0.2
 Storage | 16/32 GB
 MicroSD | Up to 128 GB
 Battery | Li-Po 3000mAh battery
-Display | 1080 x 1920 pixels, 5.5 inches (~401 ppi pixel density)
-        | 1080 x 1920 pixels, 6.0 inches (~367 ppi pixel density)
+Display | 1080 x 1920 pixels, 5.5/6.0 inches (~401/367 ppi pixel density)
 Camera  | 13 MP, laser autofocus, dual-LED (dual tone) flash
+
+## Device Picture
+![Asus Zenfone 2 Laser/Selfie](https://dlcdnimgs.asus.com/websites/global/products/a3iCfYUnl9DJAg41/v4/img/mobile/13.png "Asus Zenfone 2 Laser/Selfie")
 
 Copyright 2016 - The CyanogenMod Project.
