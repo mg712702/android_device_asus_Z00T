@@ -16,16 +16,16 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from Z00T device
 $(call inherit-product, device/asus/Z00T/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_Z00T
+PRODUCT_NAME := aosp_Z00T
 PRODUCT_DEVICE := Z00T
 PRODUCT_BRAND := Asus
 PRODUCT_MODEL := Zenfone 2 Laser/Selfie
